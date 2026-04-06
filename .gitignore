@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Production builds (Render sẽ chạy npm run build trong server)
+client-admin/build/
+client-customer/build/
+
+# Local env / secrets (nên dùng thay cho hardcode trong MyConstants)
+.env
+.env.local
+*.local
+
+# Logs & OS
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
